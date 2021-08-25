@@ -1,0 +1,9 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 auto;
+    
+}
+/* .col{
+    max-width: 250px;
+} */

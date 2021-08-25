@@ -1,0 +1,6 @@
+<div class="container">
+    <div class="col" *ngFor = 'let trendingGif of trendingGifs'>
+        <img [src]="trendingGif.images.downsized.url" width="300" height="300" alt="">
+    </div>
+</div>
+    
